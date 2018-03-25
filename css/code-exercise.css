@@ -1,0 +1,134 @@
+* {
+    font-family: Georgia, serif;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+a {
+    color: #3366cc;
+}
+a:hover {
+    color: darkblue;
+}
+.new-york-times-container {
+    width: 40%;
+    margin: 20px auto 20px auto;
+}
+.new-york-times-tabs {
+    list-style-type: none;
+    padding: 0px 0px 10px 0px;
+    display: flex;
+    margin: 0px;
+    border-bottom: 1px solid black;
+}
+.new-york-times-tabs li {
+}
+.new-york-times-tabs li a{
+    text-decoration: none;
+    background-color: #f1f0ee;
+    border: 1px solid black;
+    border-right: none;
+    padding: 10px;
+    cursor: pointer;
+    color: black;
+}
+.new-york-times-tabs li:last-child a {
+    border-right: 1px solid black;
+}
+.new-york-times-tabs li a.selected{
+    background-color: white;
+    border-bottom: solid 1px white;
+}
+.tabs-tab-content-container {
+    padding: 10px;
+    border: 1px solid black;
+    border-top: none;
+}
+
+#real-estate-content > div {
+     margin: 3px;
+ }
+
+.tabs-tab-content:not(.selected) {
+    display: none;
+}
+.tabs-tab-content.selected {
+    display: block;
+}
+.tab-content-block {
+    display: block;
+}
+.tab-house-title {
+    display: block;
+    font-weight: bold;
+}
+.tabs-real-estate-article,
+.tabs-real-estate-list-properties {
+    display: inline-block;
+    vertical-align: top;
+}
+.tabs-real-estate-list-properties ul {
+    padding-left: 20px;
+}
+.tabs-real-estate-article {
+    width: 53%;
+}
+.tabs-real-estate-list-properties {
+    width: 41%;
+}
+.tab-content-house-desc {
+    display: inline-block;
+    width: 37%;
+    vertical-align: top;
+    margin-right: 10px;
+}
+.tabs-real-estate-img {
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+}
+.tabs-real-estate-place-ad,
+.tabs-real-estate-pricing {
+    border-top: 1px solid gray;
+}
+.tabs-real-estate-pricing ul {
+    list-style: none;
+}
+.tabs-real-estate-pricing>img {
+    border: 1px solid gray;
+    margin-top: 20px;
+}
+.tabs-real-estate-pricing-list {
+    display: inline-block;
+    width: 40%;
+    vertical-align: top;
+}
+.tabs-real-estate-pricing-list img {
+    padding-left: 20px;
+}
+.tabs-real-estate-place-ad {
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#autos-content,
+#jobs-content,
+#all-classified-content {
+    position: relative;
+    top:0px;
+    left: 0px;
+    height: 300px;
+
+}
+
+#autos-content>span,
+#jobs-content>span,
+#all-classified-content>span {
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
